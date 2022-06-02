@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- นายนิรติกรเขียวเจริญ -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Sriracha&display=swap" rel="stylesheet">
+    
+    
+    <style>
+        .jumbotron {
+            font-family:sriracha;
+            position: relative;
+            overflow: hidden;
+        }
+        video{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container{
+            z-index: 2;
+            position: relative;
+        }
+        .form-group{
+            font-family: sriracha;
+        }
+    </style>
+    <script>
+      let l_sid =[]
+        let l_sname = []
+        let l_phone = []
+    </script>
+    
+    <title>32.js-bootstrap-get-student.html</title>
+</head>
+
+<body style="background-image: url(https://images7.alphacoders.com/369/369162.jpg);" onload="get_array_data()">
+    <div class="jumbotron jumbotron-fluid mb-0 text-light">
+        <video src="https://cdn.videvo.net/videvo_files/video/free/2015-08/large_watermarked/P1060746_preview.mp4" autoplay loop muted></video>
+        <div class="container">
+          <h1 class="display-4" style="font-family:sriracha ;" >Niratikorn Khiaocharoen</h1>
+          <p class="lead">Information Technology And Telecommunication</p>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #f4af00 ;font-family: sriracha; ">
+        <a class="navbar-brand" href="#"<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-boombox-fill" viewBox="0 0 16 16">
+            <path d="M14.5.5a.5.5 0 0 0-1 0V2H1a1 1 0 0 0-1 1v2h16V3a1 1 0 0 0-1-1h-.5V.5ZM2.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm-7-1h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm.5-1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm6.5 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+            <path d="M16 6H0v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6ZM4.5 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm7 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/>
+          </svg><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-boombox-fill" viewBox="0 0 16 16">
+            <path d="M14.5.5a.5.5 0 0 0-1 0V2H1a1 1 0 0 0-1 1v2h16V3a1 1 0 0 0-1-1h-.5V.5ZM2.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm-7-1h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm.5-1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm6.5 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+            <path d="M16 6H0v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6ZM4.5 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm7 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/>
+          </svg>  Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="31.js-bootstrap-set-student.html">page31</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="32.js-bootstrap-get-student.html">page32</a>
+            </li>
+            
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+        </div>
+      </nav>
+      <div class="container ">
+          <div class="d-flex justify-content-center">
+        <div class="card " style="width: 30%;">
+            <img src="https://i1.sndcdn.com/avatars-000291473999-m7ddns-t500x500.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <p class="card-text"></p>
+              <!-- form -->
+              <form>
+                <div class="form-group">
+                    <h5 class="card-title">แสดงข้อมูลนักเรียน</h5>
+                    <table class="table table-bordered table-hover">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">No.</th>
+                          <th scope="col">SID</th>
+                          <th scope="col">name</th>
+                          <th scope="col">phone</th>
+                        </tr>
+                      </thead>
+                      <tbody id="output">
+                        <!-- <p id="output"></p> -->
+                        <script>
+                          let show_data = ''
+                            function get_array_data() {
+                                l_sid = JSON.parse(localStorage.getItem('sid'))
+                                l_sname = JSON.parse(localStorage.getItem('sname'))
+                                l_phone = JSON.parse(localStorage.getItem('phone'))
+                                //console.log(l_sid)
+                                
+                                 for (let i = 0; i< l_sid.length; i++){
+                                     show_data += '<tr><th scope="row">' + i + '</th><td>' +
+                                      l_sid[i] +'</td><td>' + 
+                                      l_sname[i] + '</td><td>' + 
+                                      l_phone[i] + '</td><td>'
+                                     document.getElementById('output').innerHTML = show_data
+                                     //document.getElementById('output').innerHTML =
+                                      //'<tr><th scope="row">2</th><td>Jacob</td><td>Thornton</td><td>@fat</td></tr>'
+
+                                 }
+                                 show_data = ''
+                            }
+
+
+
+                        </script>
+                      </tbody>
+                    </table>
+                </div>
+              </form>
+              <!-- button -->
+              <!-- <button type="button" class="btn btn-primary w-auto">submit</button>
+              <button type="button" class="btn btn-secondary w-auto">reset</button> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+            </div>
+          </div>
+
+
+
+
+      <footer class="fixed-bottom text-danger" >
+        <div class="alert p-0 mb-auto alert-success text-center" style="font-family: sriracha;" role="alert">
+            provided by. Niratikorn Khiaocharoen
+          </div>
+        <div class="p-0 mb-auto bg-danger text-white text-center" style="font-family: pattaya;">Information Technology And Telecommunication</div>
+        
+      </footer>
+
+      
+                      </div>
+                      </div>
+                    
